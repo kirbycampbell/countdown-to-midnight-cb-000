@@ -2,7 +2,7 @@
 #number = 10
 
 def countdown_with_sleep(number)
-  number = sleep(1)
+  number = sleep(1.seconds)
 end
 
 def countdown(number)

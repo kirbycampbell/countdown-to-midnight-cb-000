@@ -3,8 +3,7 @@ number = 10
 
 def countdown(number)
   while number > 0
-    "#{number} SECOND(S)!"
-    @countdown_with_sleep
+   puts "#{number} SECOND(S)!"
     number -= 1
   end
 end
